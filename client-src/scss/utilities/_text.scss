@@ -1,0 +1,6 @@
+﻿@use "../settings/variables";
+@use "../settings/colors";
+
+.-#{variables.$selector-prefix}-primary-text {
+    color: colors.$primary;
+}

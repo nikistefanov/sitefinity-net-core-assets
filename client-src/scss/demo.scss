@@ -1,0 +1,8 @@
+﻿@use "sass:meta";
+@import './vendors/bootstrap/';
+
+@include meta.load-css("base");
+@include meta.load-css("utilities");
+@include meta.load-css("components");
+
+@include meta.load-css("vendors/kendo/themes/dark/tokens");

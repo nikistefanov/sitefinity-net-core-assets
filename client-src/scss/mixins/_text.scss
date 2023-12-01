@@ -1,0 +1,12 @@
+@mixin gradient-txt() {
+    background: var(--gradient, linear-gradient(45deg, #41287B 14.7%, #462779 22.39%, #572775 32.46%, #72266E 43.79%, #982565 56.17%, #C82459 69.12%, #E72452 76.63%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin create-typography($typography) {
+    @each $propName, $propValue in $typography {
+        #{$propName}: #{$propValue};
+    }
+}

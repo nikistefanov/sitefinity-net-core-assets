@@ -1,0 +1,8 @@
+@use "../settings/text";
+
+// If using FontAwesome
+@mixin get-icon-by-content($content, $weight: 400) {
+    content: "#{$content}";
+    font-family: text.$font-family-fa;
+    font-weight: $weight;
+}

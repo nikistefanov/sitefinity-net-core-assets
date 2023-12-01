@@ -1,0 +1,6 @@
+@use "../settings/variables";
+@use "../settings/colors";
+
+.-#{variables.$selector-prefix}-primary-bg {
+    background-color: colors.$primary;
+}
